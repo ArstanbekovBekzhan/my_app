@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "logo" : "https://i.ibb.co/N9RbPtb/uil-vk.png",
+        "title" : "ВКонтакте",
+        "text" : "много полезного",
+        "to" : "https://vk.com/"
+    },
+    {
+        "id": 2,
+        "logo" : "https://i.ibb.co/SJfdbyP/basil-youtube-solid.png",
+        "title" : "YouTube",
+        "text" : "классные видео",
+        "to" : "https://www.youtube.com/"
+    },
+    {
+        "id": 3,
+        "logo" : "https://i.ibb.co/pXT569Y/la-twitch.png",
+        "title" : "Twitch",
+        "text" : "стримы турниров",
+        "to" : "https://www.twitch.tv/"
+    },
+    {
+        "id": 4,
+        "logo" : "https://i.ibb.co/KVdnQWG/ic-twotone-discord.png",
+        "title" : "Discord",
+        "text" : "помурчать ночью",
+        "to" : "https://discord.com/"
+    },
+    {
+        "id": 5,
+        "logo" : "https://i.ibb.co/Xynkgr4/ic-round-telegram.png",
+        "title" : "Telegram",
+        "text" : "настольные игры",
+        "to" : "https://web.telegram.org/"
+    },
+    {
+        "id": 6,
+        "logo" : "https://i.ibb.co/Xynkgr4/ic-round-telegram.png",
+        "title" : "Telegram",
+        "text" : "с новостями",
+        "to" : "https://web.telegram.org/"
+    },
+    {
+        "id": 7,
+        "logo" : "https://i.ibb.co/Xynkgr4/ic-round-telegram.png",
+        "title" : "Telegram",
+        "text" : "самое важное",
+        "to" : "https://web.telegram.org/"
+    }
+]

@@ -1,0 +1,131 @@
+  @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+.App *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Syncopate', sans-serif;
+}
+.App{
+  text-align: center;
+}
+.App_header{
+  width: 100vw;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(2, 2, 2, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.AppBG{
+  position: fixed;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 90px);
+  z-index: -1;
+  object-fit: cover;
+}
+.container{
+  position: relative;
+  margin-top: 90px;
+  padding-top: 150px;
+  color: rgba(255, 255, 255, 1);
+}
+.container h2{
+  font-family: Syncopate Cyr;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0em;
+}
+
+.container_bottom>p{
+  margin: 120px 0 30px 0;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+}
+.container_links{
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+ .item{
+  width: 160px;
+  border-radius: 20px;
+  background: rgba(25, 25, 25, 1);
+  margin: 30px;
+  padding: 20px 0;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.item b{
+  font-weight: 500;
+}
+.item p{
+  font-weight: 200;
+}
+a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container_links {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1023px) {
+  .container {
+    padding-top: 100px;
+  }
+  .item {
+    width: 140px;
+  }
+}
+@media (max-width: 767px) {
+  .App_header {
+    height: 60px;
+  }
+  .AppBG{
+    top: 60px;
+    height: calc(100vh - 60px);
+  }
+  .container {
+    padding-top: 80px;
+  }
+  .container_links {
+    width: 90%;
+  }
+  .item {
+    width: 120px;
+  }
+  .container_bottom>p {
+    margin: 80px 0 20px 0;
+    font-size: 18px;
+  }
+  .container h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 480px) {
+  .container h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .item {
+    width: 100px;
+    padding: 10px 0;
+  }
+}
