@@ -4,48 +4,48 @@
         "logo" : "https://i.ibb.co/N9RbPtb/uil-vk.png",
         "title" : "ВКонтакте",
         "text" : "много полезного",
-        "to" : "https://vk.com/"
+        "to" : " https://vk.com/ssca_cybersport"
     },
     {
         "id": 2,
         "logo" : "https://i.ibb.co/SJfdbyP/basil-youtube-solid.png",
         "title" : "YouTube",
         "text" : "классные видео",
-        "to" : "https://www.youtube.com/"
+        "to" : "https://www.youtube.com/@MireaEsports"
     },
     {
         "id": 3,
         "logo" : "https://i.ibb.co/pXT569Y/la-twitch.png",
         "title" : "Twitch",
         "text" : "стримы турниров",
-        "to" : "https://www.twitch.tv/"
+        "to" : "https://www.twitch.tv/rtu_mirea"
     },
     {
         "id": 4,
         "logo" : "https://i.ibb.co/KVdnQWG/ic-twotone-discord.png",
         "title" : "Discord",
         "text" : "помурчать ночью",
-        "to" : "https://discord.com/"
+        "to" : "https://discord.gg/U25Q8XaNTc"
     },
     {
         "id": 5,
         "logo" : "https://i.ibb.co/Xynkgr4/ic-round-telegram.png",
         "title" : "Telegram",
         "text" : "настольные игры",
-        "to" : "https://web.telegram.org/"
+        "to" : "https://t.me/ssca_cybersport_tablegame"
     },
     {
         "id": 6,
         "logo" : "https://i.ibb.co/Xynkgr4/ic-round-telegram.png",
         "title" : "Telegram",
         "text" : "с новостями",
-        "to" : "https://web.telegram.org/"
+        "to" : "https://t.me/mirea_esports"
     },
     {
         "id": 7,
         "logo" : "https://i.ibb.co/Xynkgr4/ic-round-telegram.png",
         "title" : "Telegram",
         "text" : "самое важное",
-        "to" : "https://web.telegram.org/"
+        "to" : " https://t.me/mirea_esports900"
     }
 ]

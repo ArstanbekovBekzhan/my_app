@@ -10,7 +10,7 @@ function App() {
         <img src={Logo} alt=''/>
       </header>
       <div className={Astyle.container}>
-      <video autoPlay muted="muted" loop src={Bg} className={Astyle.AppBG}/>
+     <video autoPlay muted="muted" loop src={Bg} className={Astyle.AppBG}/>
         <h2>Киберспортивный центр
           рту мирэа</h2>
           <div className={Astyle.container_bottom}>
@@ -25,6 +25,7 @@ function App() {
             </div>
           </div>
       </div>
+      <p className={Astyle.footer}>Скоро тут будет много всего, следите за новостями.</p>
     </div>
   );
 }
