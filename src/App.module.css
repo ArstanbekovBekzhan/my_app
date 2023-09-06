@@ -64,7 +64,6 @@
   transition: .6s;
 }
 .item:hover{
-  transform: scale(1.01);
   border-color:#FF9900;
 }
 .item b{
