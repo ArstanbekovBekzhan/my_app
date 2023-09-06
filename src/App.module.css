@@ -79,7 +79,7 @@ a{
 }
 @media (max-width: 1024px) {
   .container {
-    padding: 100px;
+    padding: 100px 0 50px;
   }
   .container h2{
   font-size: 32px;
@@ -91,18 +91,12 @@ a{
     font-weight: 500;
   }
   .item {
-    width: 140px;
   }
   .item img{
     width: 50%;
   }
   .item p{
     font-size: 70%;
-  }
-  .container_links{
-    width: 95%;
-    width: 160px;
-    height: 180px;
   }
 .item{
   width: 160px;
@@ -117,4 +111,24 @@ a{
   .container_links{
     width: 90%;
   }
+}
+@media (max-width: 414px) {
+  .item{
+    width: 107px;
+    height: 130px;
+  }
+  .item img{
+  width: 45px;
+  height: 45px;
+  }
+  .item b{
+    margin: 0 !important ;
+  }
+  .item p{
+  font-weight: 300;
+  font-size: 10px;
+}
+.container_end{
+  font-size: 10px;
+}
 }
